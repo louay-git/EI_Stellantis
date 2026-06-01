@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers secrets
+.env
+
+# Données lourdes ou locales
+data/
+*.pkl
+*.csv
+*.xlsx
+
+# Système
+.DS_Store
+Thumbs.db
