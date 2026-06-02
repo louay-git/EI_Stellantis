@@ -1,24 +1,43 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environnements
+.venv/
+venv/
+env/
+.env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environnements virtuels
-.venv/
-venv/
-env/
-
-# Fichiers secrets
-.env
-
-# Données lourdes ou locales
-data/
-*.pkl
+# Données lourdes ou sensibles
+data*/
+dataset*/
 *.csv
 *.xlsx
+*.xls
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Modèles / résultats
+models/
+checkpoints/
+outputs/
+results/
+*.h5
+*.pt
+*.pth
+*.onnx
 
 # Système
 .DS_Store
 Thumbs.db
+
+# VS Code
+.vscode/
