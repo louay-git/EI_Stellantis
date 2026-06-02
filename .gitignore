@@ -1,0 +1,50 @@
+# Dossiers de données
+data/
+datasets/
+outputs/
+results/
+
+# Gros fichiers
+*.pkl
+*.csv
+*.xlsx
+*.zip
+*.rar
+*.7z
+*.h5
+*.joblib
+*.parquet
+
+# Modèles ML
+*.model
+*.sav
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Système
+.DS_Store
+Thumbs.dbdataset0/*.pkl
+dataset0/*.csv
+dataset0/*.zip
+dataset0/*.parquet
+
+# Gros fichiers / datasets
+*.pkl
+*.csv
+*.zip
+*.parquet
+*.h5
+*.joblib
+dataset0/*.pkl
+dataset0/*.csv
