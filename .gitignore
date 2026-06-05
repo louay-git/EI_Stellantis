@@ -14,8 +14,6 @@ env/
 .ipynb_checkpoints/
 
 # Données lourdes ou sensibles
-data*/
-dataset*/
 *.csv
 *.xlsx
 *.xls
